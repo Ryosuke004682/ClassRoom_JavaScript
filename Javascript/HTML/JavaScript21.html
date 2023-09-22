@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+  <style>
+	  .error
+	  {
+		  background-color: red;
+	  }
+  </style>
+  
+ </head> 
+<body>	
+	<h1>ユーザー登録</h1>
+	
+	 <form id = "registrationFrom">
+	  <label for="username">名前:</label>
+	  <input type="text" id="username" name="username"><br>
+	  
+	  <label for="address">住所:</label>
+	  <input type="text" id="address" name="address"><br>
+	  
+	  <label for="number">電話番号:</label>
+	  <input type="text" id="number" name="number"><br>
+	  
+	  <button type="button" onclick="validateForm()">登録</button>
+  </form>
+  
+  <div id="errormessages"></div>
+  
+  <script src="../JS/JavaScript21.js">
+  </script>
+
+	
+</body>
+
+</html>
